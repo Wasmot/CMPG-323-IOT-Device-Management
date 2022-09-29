@@ -26,5 +26,6 @@ namespace DeviceManagement_WebApp.Models
 
         [DisplayName("Device")]
         public virtual ICollection<Device> Device { get; set; }
+       
     }
 }
